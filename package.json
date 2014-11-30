@@ -1,0 +1,39 @@
+{
+  "name": "thresh",
+  "version": "1.0.0",
+  "description": "Scroll threshold events for the browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "./node_modules/browserify/bin/cmd.js browser-build.js -o build/scrollend.js",
+    "watch": "watchify browser-build.js -o build/scrollend.js",
+    "build": "./node_modules/browserify/bin/cmd.js browser-build.js -o build/scrollend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LegitTalon/thresh"
+  },
+  "keywords": [
+    "scroll",
+    "browser",
+    "DOM",
+    "event",
+    "frontend"
+  ],
+  "author": "Talon Poole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LegitTalon/thresh/issues"
+  },
+  "homepage": "https://github.com/LegitTalon/thresh",
+  "dependencies": {
+    "jquery": "^2.1.1",
+    "scrollend": "^1.0.0"
+  },
+  "_shasum": "49606f7e9d9d1e5cef2094632d724227d8c59fbc",
+  "_from": "thresh",
+  "devDependencies": {
+    "browserify": "^6.3.3",
+    "watchify": "^2.1.1"
+  }
+}
