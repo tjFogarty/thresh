@@ -1,4 +1,5 @@
 # thresh
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/LegitTalon/thresh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Scroll threshold events for the browser.
 
