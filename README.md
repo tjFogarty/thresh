@@ -28,16 +28,16 @@ var thresh = Thresh();
 /**
  * Thresh is an event emitter. Here are the important ones.
  */
-tresh.on('up', function() {
+thresh.on('up', function() {
   console.log('You broke the scrolling up threshold.');
 });
-tresh.on('down', function() {
+thresh.on('down', function() {
   console.log('You broke the scrolling down threshold.');
 });
-tresh.on('top', function() {
+thresh.on('top', function() {
   console.log('You broke the top threshold.');
 });
-tresh.on('bottom', function() {
+thresh.on('bottom', function() {
   console.log('You broke the bottom threshold.');
 });
 
